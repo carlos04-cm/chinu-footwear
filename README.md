@@ -1,34 +1,26 @@
 👟 CHINU FOOTWEAR
 
-Tienda virtual desarrollada en HTML5 y CSS3, enfocada en la venta de calzado moderno para hombres y mujeres.
-
-Este proyecto fue creado como práctica de maquetación web, estructura semántica y diseño adaptable (responsive design).
+Tienda virtual de calzado moderno para hombres y mujeres, desarrollada con HTML5 y CSS3, aplicando diseño estructurado, estilos externos y diseño adaptable (responsive).
 
 📌 Descripción del Proyecto
 
-CHINU FOOTWEAR es una tienda online estática que incluye:
+CHINU FOOTWEAR es una página web estática que simula una tienda online de calzado.
 
-Página principal con banner promocional
+El sitio cuenta con:
 
-Sección de colecciones destacadas
+🏠 Página principal (Inicio)
 
-Catálogo de productos para hombre
+👨 Sección de calzado para hombre
 
-Catálogo de productos para mujer
+👩 Sección de calzado para mujer
 
-Diseño adaptable a dispositivos móviles
+🎨 Diseño adaptable para dispositivos móviles
 
-Uso de variables CSS para mejor organización visual
+📦 Uso de Normalize.css para compatibilidad entre navegadores
 
-🛠️ Tecnologías Utilizadas
+🎯 Uso de variables CSS para mejor organización del diseño
 
-HTML5
-
-CSS3
-
-Normalize.css (para estandarizar estilos entre navegadores)
-
-📂 Estructura del Proyecto
+🗂 Estructura del Proyecto
 CHINU-FOOTWEAR/
 │
 ├── index.html
@@ -39,81 +31,109 @@ CHINU-FOOTWEAR/
 │   ├── normalize.css
 │   └── styles.css
 │
-├── img/
-│   ├── banner.png
-│   ├── coleccion1.png
-│   ├── coleccion2.png
-│   ├── ...
-│
-└── README.md
+└── img/
+    ├── banner.png
+    ├── coleccion1.png
+    ├── coleccion2.png
+    ├── ...
+
+🧩 Tecnologías Utilizadas
+
+HTML5 → Estructura del contenido.
+
+CSS3 → Diseño, estilos y animaciones.
+
+Normalize.css → Normalización de estilos entre navegadores.
+
+CSS Grid → Distribución de productos y colecciones.
+
+Flexbox → Organización del header.
+
+Variables CSS (:root) → Manejo centralizado de colores.
 
 🎨 Características del Diseño
+✔ Header
 
-✔ Uso de variables CSS (:root) para colores y sombras
-✔ Grid Layout para organizar productos
-✔ Efectos hover en productos y colecciones
-✔ Diseño responsive con @media (max-width: 768px)
-✔ Sombras suaves y diseño moderno
+Logo
 
-🖥️ Páginas Incluidas
-🏠 Inicio (index.html)
+Menú de navegación con enlace activo
 
-Banner principal con imagen de fondo
+Barra de búsqueda
 
-Sección de colecciones destacadas
+Íconos visuales (🔍 🛒)
 
-Navegación hacia Hombre y Mujer
+✔ Banner principal
 
-👞 Hombre (hombre.html)
+Imagen de fondo
 
-Catálogo de 9 productos
+Texto centrado
 
-Diseño en grid de 3 columnas
+Diseño adaptable
 
-Tarjetas con efecto hover
+✔ Productos
 
-👠 Mujer (mujer.html)
+Distribuidos en grid de 3 columnas
 
-Catálogo de 9 productos
+Efecto hover con elevación y sombra
 
-Diseño en grid
+Imagen, nombre y precio
 
-Tarjetas con sombra y animación al pasar el cursor
+✔ Diseño Responsive
 
-📱 Diseño Responsive
-
-El sitio se adapta a dispositivos móviles:
+Se adapta automáticamente en pantallas menores a 768px:
 
 El header se organiza en columna
 
-Los productos se muestran en una sola columna
+Productos en una sola columna
 
-Las colecciones pasan de 4 columnas a 2 columnas
+Colecciones en 2 columnas
 
-El banner reduce su altura
+🎨 Paleta de Colores (Variables CSS)
+--ColorFondoBody: #e6e0de;
+--ColorTextoBody: #333;
+--ColorHeader: #e3dedc;
+--ColorNavActivo: #ff8c00;
+--ColorProductoFondo: #f2eeec;
 
-🚀 Cómo Usar el Proyecto
 
-Clona el repositorio:
+Las variables están definidas en :root para facilitar futuras modificaciones.
 
-git clone https://github.com/tu-usuario/chinu-footwear.git
+🚀 Cómo usar el proyecto
+
+Clonar el repositorio:
+
+git clone https://github.com/tuusuario/chinu-footwear.git
 
 
-Abre el archivo index.html en tu navegador.
+Abrir la carpeta en VS Code.
 
-No requiere instalación adicional.
+Ejecutar index.html en el navegador.
+
+📱 Diseño Adaptable
+
+El sitio incluye media queries para garantizar buena visualización en:
+
+📱 Celulares
+
+💻 Computadores
+
+📲 Tablets
 
 📈 Mejoras Futuras
 
-Agregar funcionalidad con JavaScript
+Agregar carrito funcional con JavaScript
 
-Implementar carrito de compras real
+Implementar filtros por precio
 
-Agregar filtros de búsqueda
+Conectar a base de datos
 
-Conectar con base de datos
+Publicación en hosting real
 
-Optimizar imágenes
+Animaciones más avanzadas
+
+👨‍💻 Autor
+
+Desarrollado como proyecto académico de diseño y desarrollo web.
 
 👨‍💻 Autores
 Andres Morales
