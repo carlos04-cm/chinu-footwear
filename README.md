@@ -127,6 +127,9 @@ El sitio incluye media queries para garantizar buena visualización en:
 ---
 
 ## 👨‍💻 Autor
+Carlos Sierra
+Yesenia Perez
+Andres Morales
 
 Proyecto académico de desarrollo web.
 
